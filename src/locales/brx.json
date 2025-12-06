@@ -1,0 +1,45 @@
+{
+  "Agricure": "एग्रिकिउर",
+  "Your personal farming companion": "नंगनि गावबांआरि आखाइ-मावग्रा बिगोमा",
+  "continue": "खालामलांबाय था",
+  "add": "दाजाब",
+  "finishSetup": "थापनायखौ फोजोब",
+  "auth": {
+    "phone": "फोन",
+    "email": "इमेल",
+    "phoneNumber": "फोन नम्बर",
+    "sendOtp": "OTP देथायहर",
+    "verifyOtp": "OTP नायग्रोम",
+    "enterOtp": "देथायहरनाय 6-सानजिमानि OTP खौ हो",
+    "resendOtpIn": "{{seconds}} सेकेण्डआव OTP फिन देथायहर",
+    "resendOtp": "OTP फिन देथायहर",
+    "sendLoginLink": "लगइन लिंक देथायहर"
+  },
+  "onboarding": {
+    "step": "थाखो {{current}} नि {{total}}",
+    "language": {
+      "title": "राव सायख'नाय",
+      "description": "एपनि थाखाय नंगनि मोजांमोननाय रावखौ सायख' ।",
+      "placeholder": "राव सायख'"
+    },
+    "location": {
+      "title": "आबादानि जायगा",
+      "description": "नंगनि गावबांआरि आबादानि सोमोन्दै सल' थाखाय जायगाखौ हो।",
+      "label": "जायगा",
+      "placeholder": "दिन्थि, पान्जाब, भारत",
+      "detectAriaLabel": "जायगा हमदां",
+      "toast": {
+        "title": "जायगा हमदांनाय जाबाय",
+        "description": "जायगाखौ बेवहाय थापनाय जाबाय: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "नंगनि आबादानि फिथाइ",
+      "description": "नोंथाङा मा आबाद मावदों बेखौ खिन्था।",
+      "placeholder": "दिन्थि, गहुम",
+      "suggestions": "गोसो होनो हानाय",
+      "selectedCrops": "सायख'नाय फिथाइ",
+      "noCrops": "दासिमबो जेबो फिथाइ दाजाबनाय जायाखै।"
+    }
+  }
+}

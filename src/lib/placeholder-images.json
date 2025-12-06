@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "auth-background",
+      "description": "A subtle farm landscape with a green field under a clear sky.",
+      "imageUrl": "https://picsum.photos/seed/agriassist-auth/1920/1080",
+      "imageHint": "farm landscape"
+    }
+  ]
+}

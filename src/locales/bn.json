@@ -1,0 +1,45 @@
+{
+  "Agricure": "এগ্রিকেয়ার",
+  "Your personal farming companion": "আপনার ব্যক্তিগত কৃষি সঙ্গী",
+  "continue": "চালিয়ে যান",
+  "add": "যোগ করুন",
+  "finishSetup": "সেটআপ সম্পন্ন করুন",
+  "auth": {
+    "phone": "ফোন",
+    "email": "ইমেল",
+    "phoneNumber": "ফোন নম্বর",
+    "sendOtp": "ওটিপি পাঠান",
+    "verifyOtp": "ওটিপি যাচাই করুন",
+    "enterOtp": "পাঠানো ৬-সংখ্যার ওটিপি লিখুন",
+    "resendOtpIn": "{{seconds}} সেকেন্ডের মধ্যে ওটিপি আবার পাঠান",
+    "resendOtp": "ওটিপি আবার পাঠান",
+    "sendLoginLink": "লগইন লিঙ্ক পাঠান"
+  },
+  "onboarding": {
+    "step": "ধাপ {{current}} / {{total}}",
+    "language": {
+      "title": "ভাষা পছন্দ",
+      "description": "অ্যাপের জন্য আপনার পছন্দের ভাষা বেছে নিন।",
+      "placeholder": "একটি ভাষা নির্বাচন করুন"
+    },
+    "location": {
+      "title": "খামারের অবস্থান",
+      "description": "ব্যক্তিগত পরামর্শের জন্য আপনার খামারের অবস্থান লিখুন।",
+      "label": "অবস্থান",
+      "placeholder": "যেমন, পাঞ্জাব, ভারত",
+      "detectAriaLabel": "অবস্থান শনাক্ত করুন",
+      "toast": {
+        "title": "অবস্থান শনাক্ত হয়েছে",
+        "description": "অবস্থান সেট করা হয়েছে: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "আপনার ফসল",
+      "description": "আপনি কী চাষ করছেন তা আমাদের জানান।",
+      "placeholder": "যেমন, গম",
+      "suggestions": "পরামর্শ",
+      "selectedCrops": "নির্বাচিত ফসল",
+      "noCrops": "এখনও কোনো ফসল যোগ করা হয়নি।"
+    }
+  }
+}

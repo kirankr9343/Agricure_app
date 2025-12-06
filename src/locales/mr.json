@@ -1,0 +1,45 @@
+{
+  "Agricure": "ॲग्रीक्योर",
+  "Your personal farming companion": "तुमचा वैयक्तिक शेती सोबती",
+  "continue": "सुरु ठेवा",
+  "add": "जोडा",
+  "finishSetup": "सेटअप पूर्ण करा",
+  "auth": {
+    "phone": "फोन",
+    "email": "ईमेल",
+    "phoneNumber": "फोन नंबर",
+    "sendOtp": "ओटीपी पाठवा",
+    "verifyOtp": "ओटीपी सत्यापित करा",
+    "enterOtp": "पाठवलेला ६-अंकी ओटीपी टाका",
+    "resendOtpIn": "{{seconds}} सेकंदात ओटीपी पुन्हा पाठवा",
+    "resendOtp": "ओटीपी पुन्हा पाठवा",
+    "sendLoginLink": "लॉगिन लिंक पाठवा"
+  },
+  "onboarding": {
+    "step": "पायरी {{current}} पैकी {{total}}",
+    "language": {
+      "title": "भाषा प्राधान्य",
+      "description": "ॲपसाठी तुमची पसंतीची भाषा निवडा.",
+      "placeholder": "भाषा निवडा"
+    },
+    "location": {
+      "title": "शेताचे ठिकाण",
+      "description": "वैयक्तिक सल्ल्यासाठी तुमच्या शेताचे ठिकाण टाका.",
+      "label": "ठिकाण",
+      "placeholder": "उदा., पंजाब, भारत",
+      "detectAriaLabel": "ठिकाण शोधा",
+      "toast": {
+        "title": "ठिकाण सापडले",
+        "description": "ठिकाण येथे सेट केले आहे: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "तुमची पिके",
+      "description": "तुम्ही काय पिकवत आहात ते आम्हाला सांगा.",
+      "placeholder": "उदा., गहू",
+      "suggestions": "सूचना",
+      "selectedCrops": "निवडलेली पिके",
+      "noCrops": "अद्याप कोणतीही पिके जोडलेली नाहीत."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Agricure": "అగ్రిక్యூர்",
+  "Your personal farming companion": "మీ వ్యక్తిగత వ్యవసాయ సహచరుడు",
+  "continue": "కొనసాగించు",
+  "add": "జోడించు",
+  "finishSetup": "సెటప్‌ను పూర్తి చేయండి",
+  "auth": {
+    "phone": "ఫోన్",
+    "email": "ఇమెయిల్",
+    "phoneNumber": "ఫోను నంబరు",
+    "sendOtp": "OTP పంపండి",
+    "verifyOtp": "OTPని ధృవీకరించండి",
+    "enterOtp": "పంపిన 6-అంకెల OTPని నమోదు చేయండి",
+    "resendOtpIn": "{{seconds}} సెకన్లలో OTPని మళ్లీ పంపండి",
+    "resendOtp": "OTPని మళ్లీ పంపండి",
+    "sendLoginLink": "లాగిన్ లింక్‌ను పంపండి"
+  },
+  "onboarding": {
+    "step": "దశ {{current}} / {{total}}",
+    "language": {
+      "title": "భాషా ప్రాధాన్యత",
+      "description": "యాప్ కోసం మీకు ఇష్టమైన భాషను ఎంచుకోండి.",
+      "placeholder": "భాషను ఎంచుకోండి"
+    },
+    "location": {
+      "title": "వ్యవసాయ క్షేత్రం యొక్క ప్రదేశం",
+      "description": "వ్యక్తిగతీకరించిన సలహా కోసం మీ వ్యవసాయ క్షేత్రం యొక్క ప్రదేశాన్ని నమోదు చేయండి.",
+      "label": "ప్రదేశం",
+      "placeholder": "ఉదా., పంజాబ్, భారతదేశం",
+      "detectAriaLabel": "ప్రదేశాన్ని గుర్తించండి",
+      "toast": {
+        "title": "ప్రదేశం గుర్తించబడింది",
+        "description": "ప్రదేశం దీనికి సెట్ చేయబడింది: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "మీ పంటలు",
+      "description": "మీరు ఏమి పండిస్తున్నారో మాకు చెప్పండి.",
+      "placeholder": "ఉదా., గోధుమ",
+      "suggestions": "సూచనలు",
+      "selectedCrops": "ఎంచుకున్న పంటలు",
+      "noCrops": "ఇంకా పంటలు జోడించబడలేదు."
+    }
+  }
+}

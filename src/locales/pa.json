@@ -1,0 +1,45 @@
+{
+  "Agricure": "ਐਗਰੀਕਿਓਰ",
+  "Your personal farming companion": "ਤੁਹਾਡਾ ਨਿੱਜੀ ਖੇਤੀਬਾੜੀ ਸਾਥੀ",
+  "continue": "ਜਾਰੀ ਰੱਖੋ",
+  "add": "ਜੋੜੋ",
+  "finishSetup": "ਸੈੱਟਅੱਪ ਪੂਰਾ ਕਰੋ",
+  "auth": {
+    "phone": "ਫੋਨ",
+    "email": "ਈਮੇਲ",
+    "phoneNumber": "ਫੋਨ ਨੰਬਰ",
+    "sendOtp": "OTP ਭੇਜੋ",
+    "verifyOtp": "OTP ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "enterOtp": "ਭੇਜਿਆ ਗਿਆ 6-ਅੰਕਾਂ ਵਾਲਾ OTP ਦਰਜ ਕਰੋ",
+    "resendOtpIn": "{{seconds}} ਸਕਿੰਟਾਂ ਵਿੱਚ OTP ਦੁਬਾਰਾ ਭੇਜੋ",
+    "resendOtp": "OTP ਦੁਬਾਰਾ ਭੇਜੋ",
+    "sendLoginLink": "ਲੌਗਇਨ ਲਿੰਕ ਭੇਜੋ"
+  },
+  "onboarding": {
+    "step": "ਕਦਮ {{current}} ਦਾ {{total}}",
+    "language": {
+      "title": "ਭਾਸ਼ਾ ਦੀ ਤਰਜੀਹ",
+      "description": "ਐਪ ਲਈ ਆਪਣੀ ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ ਚੁਣੋ।",
+      "placeholder": "ਇੱਕ ਭਾਸ਼ਾ ਚੁਣੋ"
+    },
+    "location": {
+      "title": "ਫਾਰਮ ਦਾ ਸਥਾਨ",
+      "description": "ਨਿੱਜੀ ਸਲਾਹ ਲਈ ਆਪਣੇ ਫਾਰਮ ਦਾ ਸਥਾਨ ਦਰਜ ਕਰੋ।",
+      "label": "ਸਥਾਨ",
+      "placeholder": "ਉਦਾਹਰਨ, ਪੰਜਾਬ, ਭਾਰਤ",
+      "detectAriaLabel": "ਸਥਾਨ ਦਾ ਪਤਾ ਲਗਾਓ",
+      "toast": {
+        "title": "ਸਥਾਨ ਦਾ ਪਤਾ ਲੱਗ ਗਿਆ",
+        "description": "ਸਥਾਨ ਇੱਥੇ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "ਤੁਹਾਡੀਆਂ ਫਸਲਾਂ",
+      "description": "ਸਾਨੂੰ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਕੀ ਉਗਾ ਰਹੇ ਹੋ।",
+      "placeholder": "ਉਦਾਹਰਨ, ਕਣਕ",
+      "suggestions": "ਸੁਝਾਅ",
+      "selectedCrops": "ਚੁਣੀਆਂ ਫਸਲਾਂ",
+      "noCrops": "ਅਜੇ ਤੱਕ ਕੋਈ ਫਸਲ ਨਹੀਂ ਜੋੜੀ ਗਈ ਹੈ।"
+    }
+  }
+}

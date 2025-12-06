@@ -1,0 +1,45 @@
+{
+  "Agricure": "ଏଗ୍ରିକ୍ୟୋର",
+  "Your personal farming companion": "ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଚାଷ ସାଥୀ",
+  "continue": "ଜାରି ରଖନ୍ତୁ",
+  "add": "ଯୋଗ କରନ୍ତୁ",
+  "finishSetup": "ସେଟଅପ୍ ସମାପ୍ତ କରନ୍ତୁ",
+  "auth": {
+    "phone": "ଫୋନ୍",
+    "email": "ଇମେଲ୍",
+    "phoneNumber": "ଫୋନ୍ ନମ୍ବର",
+    "sendOtp": "OTP ପଠାନ୍ତୁ",
+    "verifyOtp": "OTP ଯାଞ୍ଚ କରନ୍ତୁ",
+    "enterOtp": "ପଠାଯାଇଥିବା ୬-ଅଙ୍କ ବିଶିଷ୍ଟ OTP ପ୍ରବେଶ କରନ୍ତୁ",
+    "resendOtpIn": "{{seconds}} ସେକେଣ୍ଡରେ OTP ପୁନର୍ବାର ପଠାନ୍ତୁ",
+    "resendOtp": "OTP ପୁନର୍ବାର ପଠାନ୍ତୁ",
+    "sendLoginLink": "ଲଗଇନ୍ लिंक ପଠାନ୍ତୁ"
+  },
+  "onboarding": {
+    "step": "ପଦକ୍ଷେପ {{current}} / {{total}}",
+    "language": {
+      "title": "ଭାଷା ପସନ୍ଦ",
+      "description": "ଆପ୍ ପାଇଁ ଆପଣଙ୍କ ਪਸੰਦੀਦਾ ଭାଷା ବାଛନ୍ତୁ।",
+      "placeholder": "ଏକ ଭାଷା ବାଛନ୍ତୁ"
+    },
+    "location": {
+      "title": "ଫାର୍ମର ଅବସ୍ਥାନ",
+      "description": "ବ୍ୟକ୍ତିଗତ ପରାମର୍ଶ ପାଇଁ ଆପଣଙ୍କ ଫାର୍ମର ଅବସ୍ਥାନ ପ୍ରବେଶ କରନ୍ତୁ।",
+      "label": "ଅବସ୍ਥାନ",
+      "placeholder": "ଉਦਾ., ପଞ୍ଜାବ, ଭାରତ",
+      "detectAriaLabel": "ଅବସ୍ਥାନ ଚିହ୍ନଟ କରନ୍ତୁ",
+      "toast": {
+        "title": "ଅବସ୍ਥାନ ଚିହ୍ନଟ ହେଲା",
+        "description": "ଅବସ୍ଥାନ ଏଠାରେ ସେଟ୍ ହେଲା: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "ଆପଣଙ୍କ ଫସଲ",
+      "description": "ଆପଣ କ'ଣ ଚାଷ କରୁଛନ୍ତି ଆମକୁ କୁହନ୍ତୁ।",
+      "placeholder": "ଉਦਾ., ଗହମ",
+      "suggestions": "ପରାମର୍ଶ",
+      "selectedCrops": "ଚୟନିତ ଫସଲ",
+      "noCrops": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଫସଲ ଯୋଗ କରାଯାଇ ନାହିଁ।"
+    }
+  }
+}

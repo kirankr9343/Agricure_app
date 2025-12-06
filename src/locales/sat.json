@@ -1,0 +1,45 @@
+{
+  "Agricure": "ᱮᱜᱨᱤᱠᱤᱭᱚᱨ",
+  "Your personal farming companion": "ᱟᱢᱟᱜ ᱱᱤᱡᱮᱨᱟᱜ ᱪᱟᱥ ᱜᱟᱛᱮ",
+  "continue": "ᱢᱟᱲᱟᱝ ᱪᱟᱞᱟᱜ ᱢᱮ",
+  "add": "ավելացնել",
+  "finishSetup": "ᱥᱮᱴᱟᱯ ᱯᱩᱨᱟᱹᱣ ᱢᱮ",
+  "auth": {
+    "phone": "ଫୋନ୍",
+    "email": "ᱤᱢᱮᱞ",
+    "phoneNumber": "ଫୋନ୍ ᱱᱚᱢᱵᱚᱨ",
+    "sendOtp": "OTP ᱵᱷᱮᱡᱟᱭ ᱢᱮ",
+    "verifyOtp": "OTP ᱡᱟᱸᱪ ᱢᱮ",
+    "enterOtp": "ᱵᱷᱮᱡᱟ ᱟᱠᱟᱱ 6-ᱚᱝᱠᱚ ᱣᱟᱞᱟ OTP ᱮᱢᱚᱜ ᱢᱮ",
+    "resendOtpIn": "{{seconds}} ᱥᱮᱠᱮᱱᱰ ᱨᱮ OTP ᱫᱩᱵᱟᱨᱟ ᱵᱷᱮᱡᱟᱭ ᱢᱮ",
+    "resendOtp": "OTP ᱫᱩᱵᱟᱨᱟ ᱵᱷᱮᱡᱟᱭ ᱢᱮ",
+    "sendLoginLink": "ᱞᱚᱜᱤᱱ ᱞᱤᱝᱠ ᱵᱷᱮᱡᱟᱭ ᱢᱮ"
+  },
+  "onboarding": {
+    "step": "ପଦକ୍ଷେପ {{current}} ର {{total}}",
+    "language": {
+      "title": "ᱯᱟᱹᱨᱥᱤ  पसंद",
+      "description": "ᱮᱯ ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ ᱠᱩᱥᱤᱭᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ।",
+      "placeholder": "ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ"
+    },
+    "location": {
+      "title": "ᱠᱷᱮᱛ ᱨᱮᱭᱟᱜ ᱡᱟᱭᱜᱟ",
+      "description": "ᱱᱤᱡᱮᱨᱟᱜ ᱥᱟᱞᱟᱦ ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ ᱠᱷᱮᱛ ᱨᱮᱭᱟᱜ ᱡᱟᱭᱜᱟ ᱮᱢᱚᱜ ᱢᱮ।",
+      "label": "ᱡᱟᱭᱜᱟ",
+      "placeholder": "ᱡᱮᱞᱮᱠᱟ, ᱯᱚᱱᱡᱟᱵ, ᱵᱷᱟᱨᱚᱛ",
+      "detectAriaLabel": "ᱡᱟᱭᱜᱟ ᱯᱟᱸᱡᱟ ᱢᱮ",
+      "toast": {
+        "title": "ᱡᱟᱭᱜᱟ ᱧᱟᱢ ᱮᱱᱟ",
+        "description": "ᱡᱟᱭᱜᱟ ᱱᱚᱰᱮ ᱥᱮᱴ ᱮᱱᱟ: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "ᱟᱢᱟᱜ ᱯᱷᱚᱥᱚᱞ",
+      "description": "ᱟᱢ ᱪᱮᱫᱮᱢ ᱪᱟᱥ ᱮᱫᱟ ᱞᱟᱹᱭᱟᱞᱮ ᱢᱮ।",
+      "placeholder": "ᱡᱮᱞᱮᱠᱟ, ᱜᱚᱦᱚᱢ",
+      "suggestions": "ᱥᱟᱞᱟᱦ",
+      "selectedCrops": "ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱ ᱯᱷᱚᱥᱚᱞ",
+      "noCrops": "ད་ལྟ་ फसल ավելացված չէ։"
+    }
+  }
+}

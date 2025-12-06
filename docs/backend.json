@@ -1,0 +1,412 @@
+
+{
+  "entities": {
+    "User": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "User",
+      "type": "object",
+      "description": "Represents a user of the AgriAssist application.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the user entity."
+        },
+        "phoneNumber": {
+          "type": "string",
+          "description": "User's phone number, used for login (optional if email is used)."
+        },
+        "email": {
+          "type": "string",
+          "description": "User's email address, used for login (optional if phone is used).",
+          "format": "email"
+        },
+        "fullName": {
+          "type": "string",
+          "description": "User's full name."
+        },
+        "alternativeContactNumber": {
+          "type": "string",
+          "description": "Alternative contact number for the user (optional)."
+        },
+        "preferredLanguage": {
+          "type": "string",
+          "description": "User's preferred language for the application."
+        },
+        "profilePhotoUrl": {
+          "type": "string",
+          "description": "URL of the user's profile photo (optional).",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "id",
+        "fullName",
+        "preferredLanguage"
+      ]
+    },
+    "Farm": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Farm",
+      "type": "object",
+      "description": "Represents a farm associated with a user.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the farm entity."
+        },
+        "userId": {
+          "type": "string",
+          "description": "Reference to User. (Relationship: User 1:N Farm)"
+        },
+        "farmName": {
+          "type": "string",
+          "description": "Name of the farm."
+        },
+        "locationLatitude": {
+          "type": "number",
+          "description": "Latitude of the farm location."
+        },
+        "locationLongitude": {
+          "type": "number",
+          "description": "Longitude of the farm location."
+        },
+        "pincode": {
+          "type": "string",
+          "description": "Pincode of the farm location."
+        },
+        "district": {
+          "type": "string",
+          "description": "District of the farm location."
+        },
+        "state": {
+          "type": "string",
+          "description": "State of the farm location."
+        },
+        "farmSizeHectare": {
+          "type": "number",
+          "description": "Size of the farm in hectares."
+        },
+        "irrigationType": {
+          "type": "string",
+          "description": "Type of irrigation used on the farm."
+        },
+        "soilType": {
+          "type": "string",
+          "description": "Type of soil found on the farm."
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "farmName",
+        "locationLatitude",
+        "locationLongitude",
+        "farmSizeHectare",
+        "irrigationType",
+        "soilType"
+      ]
+    },
+    "Crop": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Crop",
+      "type": "object",
+      "description": "Represents a crop grown on a farm.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the crop entity."
+        },
+        "farmId": {
+          "type": "string",
+          "description": "Reference to Farm. (Relationship: Farm 1:N Crop)"
+        },
+        "cropCategory": {
+          "type": "string",
+          "description": "Category of the crop (e.g., Food grains, Cash crops)."
+        },
+        "cropName": {
+          "type": "string",
+          "description": "Name of the specific crop."
+        },
+        "plantingDate": {
+          "type": "string",
+          "description": "Date when the crop was planted.",
+          "format": "date-time"
+        },
+        "cropVariety": {
+          "type": "string",
+          "description": "Variety of the crop (if available)."
+        }
+      },
+      "required": [
+        "id",
+        "farmId",
+        "cropCategory",
+        "cropName",
+        "plantingDate"
+      ]
+    },
+    "FamilyMember": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "FamilyMember",
+      "type": "object",
+      "description": "Represents a family member associated with a user.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the family member entity."
+        },
+        "userId": {
+          "type": "string",
+          "description": "Reference to User. (Relationship: User 1:N FamilyMember)"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the family member."
+        },
+        "relationship": {
+          "type": "string",
+          "description": "Relationship of the family member to the user."
+        },
+        "contactNumber": {
+          "type": "string",
+          "description": "Contact number of the family member."
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "name",
+        "relationship",
+        "contactNumber"
+      ]
+    },
+    "CommunicationPreference": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "CommunicationPreference",
+      "type": "object",
+      "description": "Represents a user's communication preferences.",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "Reference to User. (Relationship: User 1:1 CommunicationPreference)"
+        },
+        "smsNotificationsEnabled": {
+          "type": "boolean",
+          "description": "Indicates whether SMS notifications are enabled."
+        },
+        "whatsappNotificationsEnabled": {
+          "type": "boolean",
+          "description": "Indicates whether WhatsApp notifications are enabled."
+        },
+        "pushNotificationsEnabled": {
+          "type": "boolean",
+          "description": "Indicates whether push notifications are enabled."
+        },
+        "voiceAssistantEnabled": {
+          "type": "boolean",
+          "description": "Indicates whether the voice assistant is enabled."
+        },
+        "preferredCommunicationTimes": {
+          "type": "array",
+          "description": "Array of preferred communication times (e.g., Morning, Afternoon, Evening).",
+          "items": {
+            "type": "string"
+          }
+        },
+        "privacyPolicyAgreed": {
+          "type": "boolean",
+          "description": "Indicates whether the user has agreed to the privacy policy."
+        },
+        "termsAndConditionsAgreed": {
+          "type": "boolean",
+          "description": "Indicates whether the user has agreed to the terms and conditions."
+        },
+        "imageDataUsageConsent": {
+          "type": "boolean",
+          "description": "Indicates whether the user consents to image/data usage for AI diagnosis."
+        },
+        "modelTrainingParticipation": {
+          "type": "boolean",
+          "description": "Indicates whether the user participates in model training (optional)."
+        },
+        "marketingCommunicationsConsent": {
+          "type": "boolean",
+          "description": "Indicates whether the user consents to marketing communications (optional)."
+        }
+      },
+      "required": [
+        "userId",
+        "smsNotificationsEnabled",
+        "whatsappNotificationsEnabled",
+        "pushNotificationsEnabled",
+        "voiceAssistantEnabled",
+        "privacyPolicyAgreed",
+        "termsAndConditionsAgreed",
+        "imageDataUsageConsent"
+      ]
+    },
+    "EmergencyContact": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "EmergencyContact",
+      "type": "object",
+      "description": "Represents an emergency contact for a user.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the emergency contact entity."
+        },
+        "userId": {
+          "type": "string",
+          "description": "Reference to User. (Relationship: User 1:N EmergencyContact)"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the emergency contact."
+        },
+        "number": {
+          "type": "string",
+          "description": "Phone number of the emergency contact."
+        },
+        "relationship": {
+          "type": "string",
+          "description": "Relationship of the emergency contact to the user."
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "name",
+        "number",
+        "relationship"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "entityName": "User",
+          "schema": {
+            "$ref": "#/backend/entities/User"
+          },
+          "description": "Stores user profiles. Path-based ownership ensures only the authenticated user can access their profile data.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier of the user."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/farms/{farmId}",
+        "definition": {
+          "entityName": "Farm",
+          "schema": {
+            "$ref": "#/backend/entities/Farm"
+          },
+          "description": "Stores farm information for a specific user. This hierarchical structure ensures that farms are only accessible by their respective owners.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier of the user."
+            },
+            {
+              "name": "farmId",
+              "description": "The unique identifier of the farm."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/farms/{farmId}/crops/{cropId}",
+        "definition": {
+          "entityName": "Crop",
+          "schema": {
+            "$ref": "#/backend/entities/Crop"
+          },
+          "description": "Stores crop information for a specific farm, belonging to a specific user. Continues the path-based ownership to maintain data integrity.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier of the user."
+            },
+            {
+              "name": "farmId",
+              "description": "The unique identifier of the farm."
+            },
+            {
+              "name": "cropId",
+              "description": "The unique identifier of the crop."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/familyMembers/{familyMemberId}",
+        "definition": {
+          "entityName": "FamilyMember",
+          "schema": {
+            "$ref": "#/backend/entities/FamilyMember"
+          },
+          "description": "Stores family member information for a specific user. Access is restricted to the owning user via path-based ownership.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier of the user."
+            },
+            {
+              "name": "familyMemberId",
+              "description": "The unique identifier of the family member."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/communicationPreference",
+        "definition": {
+          "entityName": "CommunicationPreference",
+          "schema": {
+            "$ref": "#/backend/entities/CommunicationPreference"
+          },
+          "description": "Stores communication preferences for a specific user. The path-based structure provides private and secure access.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier of the user."
+            }
+          ]
+        }
+      },
+      {
+        "path": "/users/{userId}/emergencyContacts/{emergencyContactId}",
+        "definition": {
+          "entityName": "EmergencyContact",
+          "schema": {
+            "$ref": "#/backend/entities/EmergencyContact"
+          },
+          "description": "Stores emergency contact information for a specific user. This hierarchical setup assures only the authenticated user may retrieve or alter this data.",
+          "params": [
+            {
+              "name": "userId",
+              "description": "The unique identifier of the user."
+            },
+            {
+              "name": "emergencyContactId",
+              "description": "The unique identifier of the emergency contact."
+            }
+          ]
+        }
+      }
+    ],
+    "reasoning": "The Firestore structure prioritizes authorization independence and QAPs. User data is stored under `/users/{userId}`, ensuring path-based ownership for private data. User-owned entities (Farms, FamilyMembers, EmergencyContacts) are nested under `/users/{userId}` for simplified security rules. The `CommunicationPreference` is also stored under the user's document to easily manage user-specific settings. This structure avoids hierarchical authorization dependencies, enabling atomic operations. It also clearly segregates user data, aligning with the principle of Structural Segregation. Each collection's security posture is homogeneous, meaning all documents within a given collection share the same security requirements. This simplifies rule creation and maintenance.\n\nThe path `/users/{userId}` allows secure `list` operations for a user's data, as rules can easily verify `request.auth.uid == userId`. All rules will rely solely on `request.auth.uid`, fulfilling the DBAC requirement. No custom claims are used. The data includes entities related to User : Farm, FamilyMember, EmergencyContact, and CommunicationPreference. The farm data is stored at `/users/{userId}/farms/{farmId}`. Crop data is stored under `/users/{userId}/farms/{farmId}/crops/{cropId}` which fits naturally into the hierarchical structure. All data is completely private to the user, so no denormalization is needed."
+  }
+}

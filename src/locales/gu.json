@@ -1,0 +1,45 @@
+{
+  "Agricure": "એગ્રીક્યોર",
+  "Your personal farming companion": "તમારો વ્યક્તિગત ખેતી સાથી",
+  "continue": "આગળ વધો",
+  "add": "ઉમેરો",
+  "finishSetup": "સેટઅપ પૂર્ણ કરો",
+  "auth": {
+    "phone": "ફોન",
+    "email": "ઇમેઇલ",
+    "phoneNumber": "ફોન નંબર",
+    "sendOtp": "OTP મોકલો",
+    "verifyOtp": "OTP ચકાસો",
+    "enterOtp": "મોકલેલો 6-અંકનો OTP દાખલ કરો",
+    "resendOtpIn": "{{seconds}} સેકન્ડમાં OTP ફરીથી મોકલો",
+    "resendOtp": "OTP ફરીથી મોકલો",
+    "sendLoginLink": "લોગિન લિંક મોકલો"
+  },
+  "onboarding": {
+    "step": "પગલું {{current}} / {{total}}",
+    "language": {
+      "title": "ભાષાની પસંદગી",
+      "description": "એપ્लिकેશન માટે તમારી પસંદગીની ભાષા પસંદ કરો.",
+      "placeholder": "ભાષા પસંદ કરો"
+    },
+    "location": {
+      "title": "ખેતરનું સ્થાન",
+      "description": "વ્યક્તિગત સલાહ માટે તમારા ખેતરનું સ્થાન દાખલ કરો.",
+      "label": "સ્થાન",
+      "placeholder": "દા.ત., પંજાબ, ભારત",
+      "detectAriaLabel": "સ્થાન શોધો",
+      "toast": {
+        "title": "સ્થાન શોધાયું",
+        "description": "સ્થાન આના પર સેટ થયું: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "તમારા પાક",
+      "description": "તમે શું ઉગાડી રહ્યા છો તે અમને કહો.",
+      "placeholder": "દા.ત., ઘઉં",
+      "suggestions": "સૂચનો",
+      "selectedCrops": "પસંદ કરેલા પાક",
+      "noCrops": "હજી સુધી कोई પાક ઉમેરાયો નથી।"
+    }
+  }
+}

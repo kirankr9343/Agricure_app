@@ -1,0 +1,60 @@
+
+{
+  "Agricure": "ಅಗ್ರಿಕೇರ್",
+  "Your personal farming companion": "ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಕೃಷಿ ಸಂಗಾತಿ",
+  "continue": "ಮುಂದುವರಿಸಿ",
+  "add": "ಸೇರಿಸಿ",
+  "finishSetup": "ಸೆಟಪ್ ಪೂರ್ಣಗೊಳಿಸಿ",
+  "auth": {
+    "phone": "ಫೋನ್",
+    "email": "ಇಮೇಲ್",
+    "phoneNumber": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ",
+    "sendOtp": "ಒಟಿಪಿ ಕಳುಹಿಸಿ",
+    "verifyOtp": "ಒಟಿಪಿ ಪರಿಶೀಲಿಸಿ",
+    "enterOtp": "ಗೆ ಕಳುಹಿಸಲಾದ 6-ಅಂಕಿಯ ಒಟಿಪಿ ನಮೂದಿಸಿ",
+    "resendOtpIn": "{{seconds}} ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಒಟಿಪಿ ಮರುಕಳುಹಿಸಿ",
+    "resendOtp": "ಒಟಿಪಿ ಮರುಕಳುಹಿಸಿ",
+    "sendLoginLink": "ಲಾಗಿನ್ ಲಿಂಕ್ ಕಳುಹಿಸಿ"
+  },
+  "onboarding": {
+    "step": "ಹಂತ {{current}} / {{total}}",
+    "language": {
+      "title": "ಭಾಷಾ ಆದ್ಯತೆ",
+      "description": "ಅಪ್ಲಿಕೇಶನ್‌ಗಾಗಿ ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆಯನ್ನು ಆರಿಸಿ.",
+      "placeholder": "ಒಂದು ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+    },
+    "profile": {
+      "title": "ವೈಯಕ್ತಿಕ ವಿವರಗಳು",
+      "description": "ಮೂಲಗಳಿಂದ ಪ್ರಾರಂಭಿಸೋಣ. ನಿಮ್ಮ ಬಗ್ಗೆ ಸ್ವಲ್ಪ ತಿಳಿಸಿ.",
+      "fullName": "ಪೂರ್ಣ ಹೆಸರು",
+      "fullNamePlaceholder": "ಉದಾ., ರಮೇಶ್ ಕುಮಾರ್",
+      "dob": "ಹುಟ್ಟಿದ ದಿನಾಂಕ",
+      "dobPlaceholder": "ದಿನಾಂಕವನ್ನು ಆರಿಸಿ",
+      "gender": "ಲಿಂಗ (ಐಚ್ಛಿಕ)",
+      "genderPlaceholder": "ಲಿಂಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+      "genderMale": "ಪುರುಷ",
+      "genderFemale": "ಮಹಿಳೆ",
+      "genderOther": "ಇತರೆ",
+      "genderPreferNotToSay": "ಹೇಳಲು ಇಷ್ಟಪಡುವುದಿಲ್ಲ"
+    },
+    "location": {
+      "title": "ಕೃಷಿ ಸ್ಥಳ",
+      "description": "ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಸಲಹೆಗಾಗಿ ನಿಮ್ಮ ಕೃಷಿ ಸ್ಥಳವನ್ನು ನಮೂದಿಸಿ.",
+      "label": "ಸ್ಥಳ",
+      "placeholder": "ಉದಾ., ಪಂಜಾಬ್, ಭಾರತ",
+      "detectAriaLabel": "ಸ್ಥಳವನ್ನು ಪತ್ತೆ ಮಾಡಿ",
+      "toast": {
+        "title": "ಸ್ಥಳವನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗಿದೆ",
+        "description": "ಸ್ಥಳವನ್ನು ಇದಕ್ಕೆ ಹೊಂದಿಸಲಾಗಿದೆ: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "ನಿಮ್ಮ ಬೆಳೆಗಳು",
+      "description": "ನೀವು ಏನು ಬೆಳೆಯುತ್ತಿದ್ದೀರಿ ಎಂದು ನಮಗೆ ತಿಳಿಸಿ.",
+      "placeholder": "ಉದಾ., ಗೋಧಿ",
+      "suggestions": "ಸಲಹೆಗಳು",
+      "selectedCrops": "ಆಯ್ದ ಬೆಳೆಗಳು",
+      "noCrops": "ಇನ್ನೂ ಯಾವುದೇ ಬೆಳೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿಲ್ಲ."
+    }
+  }
+}

@@ -1,0 +1,460 @@
+
+{
+  "Agricure": "AGRICURE",
+  "Your personal farming companion": "Your personal farming companion",
+  "continue": "Continue",
+  "add": "Add",
+  "finishSetup": "Finish Setup",
+  "Edit": "Edit",
+  "Save": "Save",
+  "Cancel": "Cancel",
+  "auth": {
+    "phone": "Phone",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "sendOtp": "Send OTP",
+    "sending": "Sending...",
+    "verifyOtp": "Verify & Proceed",
+    "enterOtp": "Enter the 6-digit OTP sent to",
+    "resendOtpIn": "Resend OTP in {{seconds}}s",
+    "resendOtp": "Resend OTP",
+    "sendLoginLink": "Send Login Link",
+    "signInSignUp": "Sign In / Sign Up",
+    "tagline": "DATA TO DECISIONS, SEEDS TO SUCCESS.",
+    "agreement": {
+        "prefix": "By clicking continue, you agree to our",
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy"
+    },
+    "toast": {
+        "invalidPhoneTitle": "Invalid Phone Number",
+        "invalidPhoneDescription": "Please enter a valid 10-digit phone number.",
+        "otpSentTitle": "OTP Sent",
+        "otpSentDescription": "An OTP has been sent to {{phone}}.",
+        "invalidOtpTitle": "Invalid OTP",
+        "invalidOtpLengthDescription": "Please enter a valid 6-digit OTP.",
+        "invalidOtpDescription": "The OTP you entered is incorrect. Please try again.",
+        "verificationSuccessTitle": "Success",
+        "verificationSuccessDescription": "Phone number verified successfully.",
+        "loginLinkSentTitle": "Login Link Sent",
+        "loginLinkSentDescription": "A login link has been sent to {{email}}."
+    }
+  },
+  "onboarding": {
+    "step": "Step {{current}} of {{total}}",
+    "language": {
+      "title": "Language Preference",
+      "description": "Choose your preferred language for the app.",
+      "placeholder": "Select a language"
+    },
+    "profile": {
+      "title": "Personal Details",
+      "description": "Let's start with the basics. Tell us a bit about yourself.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "E.g., Ramesh Kumar",
+      "dob": "Date of Birth",
+      "dobPlaceholder": "Pick a date",
+      "gender": "Gender (optional)",
+      "genderPlaceholder": "Select gender",
+      "genderMale": "Male",
+      "genderFemale": "Female",
+      "genderOther": "Other",
+      "genderPreferNotToSay": "Prefer not to say"
+    },
+    "farmDetails": {
+        "title": "Farming Details",
+        "description": "Tell us about your farm to get better recommendations.",
+        "farmerType": "Type of Farmer",
+        "farmerTypePlaceholder": "Select farmer type",
+        "landType": "Type of Land",
+        "landArea": "Total Land Area",
+        "landAreaPlaceholder": "E.g., 5.5",
+        "irrigation": "Primary Irrigation Source",
+        "irrigationPlaceholder": "Select irrigation source",
+        "soilType": "Primary Soil Type",
+        "soilTypePlaceholder": "Select soil type"
+    },
+    "crops": {
+      "title": "Your Crops",
+      "description": "Select the primary crops you are growing.",
+      "descriptionV2": "Add your primary crops and their seasons for tailored advice.",
+      "cropName": "Crop Name",
+      "selectCrop": "Select a crop",
+      "sowingSeason": "Sowing Season",
+      "selectSeason": "Select a season",
+      "harvestMonth": "Harvesting Month",
+      "selectMonth": "Select a month",
+      "addCrop": "Add Crop to List",
+      "yourCropsList": "Your Crops",
+      "noCropsAdded": "Your added crops will appear here.",
+      "placeholder": "E.g., Wheat",
+      "suggestions": "Suggestions for your area",
+      "selectedCrops": "Selected Crops",
+      "noCrops": "No crops added yet."
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "description": "Please review and accept the terms to continue.",
+      "agree": "I have read, understood, and agree to the Terms and Conditions",
+      "agreeDescription": "By agreeing, you consent to data usage for AI diagnosis and other services as described.",
+      "content": "Welcome to Agricure!\n\nThese Terms and Conditions outline the rules and regulations for the use of our application.\n\nBy accessing and using this app, you accept these terms and conditions in full. Do not continue to use Agricure if you do not accept all of the terms and conditions stated on this page.\n\n**1. License to Use Application**\nUnless otherwise stated, Agricure and/or its licensors own the intellectual property rights for all material on Agricure. All intellectual property rights are reserved.\n\n**2. Data Collection and User Consent**\nBy using this app, you grant Agricure explicit consent to collect, store, and process data you provide, including but not limited to:\n\na) **Personal and Farm Information:** Your phone number, email, farm's geographic location (GPS coordinates), soil type, and chosen crops.\nb) **Camera Access:** For the 'Disease Scan' feature, you consent to allow the app to access your device's camera to capture and upload images of your crops for analysis.\nc) **Usage Data:** We may collect data on how you interact with the app to improve our services.\n\nThis data is essential for providing you with personalized agricultural advisories, including weather forecasts, market prices, soil health information, and disease risk assessments.\n\n**3. AI-Generated Advisories and Disclaimers**\nYou acknowledge and agree that:\n\na) All recommendations, diagnoses, and advisories provided within the app are generated by an Artificial Intelligence (AI) model.\nb) This information is for guidance and informational purposes ONLY. It should not be considered a substitute for professional agronomic advice, field verification, or scientific testing.\nc) Agricure makes no warranties or guarantees regarding the accuracy, reliability, or completeness of the AI-generated content.\nd) You are solely responsible for all decisions, actions, and their consequences related to your farming practices. Agricure and its parent company are not responsible for any crop failure, financial loss, or other damages.\n\n**4. Privacy Policy**\nOur Privacy Policy, which is an integral part of these Terms, describes in detail how we handle your data. Key commitments include:\n\na) We will not sell or rent your personally identifiable information (PII) to third parties for marketing purposes without your explicit consent.\nb) Anonymized and aggregated data may be used for research, statistical analysis, and to improve our AI models and services.\n\n**5. Communication Consent**\nBy providing your contact details, you consent to receive communications from Agricure related to our services. This may include:\n\na) In-app notifications\nb) WhatsApp messages\nc) SMS/Text Messages\nd) Automated or manual phone calls for critical alerts or support.\n\nYou can manage your communication preferences at any time in the app's settings.\n\n**6. Marketplace and Third-Party Services**\nThe app may include marketplaces for products or equipment. Agricure acts as a facilitator. Any transaction you make is directly with the third-party vendor. We are not a party to such transactions and are not liable for the quality, delivery, or any other aspect of the products or services offered by third parties.\n\n**7. Limitation of Liability**\nTo the maximum extent permitted by applicable law, in no event shall Agricure, its owners, or employees be liable for any direct, indirect, punitive, incidental, special, or consequential damages or any damages whatsoever, including, without limitation, damages for loss of use, data, crop yield, or profits, arising out of or in any way connected with the use or performance of the application.\n\n**8. Changes to Terms**\nAgricure reserves the right to revise these terms and conditions at any time. We will notify you of any significant changes. By continuing to use the app after such changes, you agree to be bound by the revised terms.\n\nBy checking the box, you confirm that you have read, understood, and agree to be bound by these Terms and Conditions."
+    },
+    "notifications": {
+      "title": "Notification Preferences",
+      "description": "How would you like to receive reminders and suggestions?",
+      "app": "In-App Notifications",
+      "whatsapp": "WhatsApp Messages",
+      "sms": "SMS/Text Messages",
+      "calls": "Automated Phone Calls"
+    }
+  },
+  "location": {
+    "title": "Your Location",
+    "description": "Help us find your farm to provide tailored advice.",
+    "country": "Country",
+    "countryPlaceholder": "e.g. India",
+    "state": "State / Province",
+    "statePlaceholder": "e.g. Punjab",
+    "district": "District / City",
+    "districtPlaceholder": "e.g. Amritsar",
+    "village": "Village / Town / Area",
+    "villagePlaceholder": "e.g. Attari",
+    "pincode": "PIN Code",
+    "pincodePlaceholder": "e.g. 143108",
+    "gpsCoordinates": "GPS Coordinates (optional)",
+    "gpsPlaceholder": "Autodetected or manual entry",
+    "detectAriaLabel": "Detect Location",
+    "detectButton": "Use My Current Location",
+    "detecting": "Detecting...",
+    "mapError": "Map cannot be displayed. Please provide a valid map API key in your environment variables (NEXT_PUBLIC_MAP_API_KEY) to enable this feature.",
+    "suggestionsLoading": "Loading suggestions...",
+    "suggestionsError": "Could not load suggestions. Please enter your crop manually.",
+    "districtErrorTitle": "Invalid District",
+    "districtErrorDescription": "District '{{district}}' does not seem to belong to the state '{{state}}'. Please choose a correct one.",
+    "toast": {
+      "title": "Location Detected",
+      "description": "Location set to: {{location}}",
+      "errorTitle": "Detection Failed",
+      "errorMessage": "Could not detect location. Please enable permissions or enter manually.",
+      "notSupported": "Geolocation is not supported by your browser."
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "myProfile": "My Profile",
+      "advisory": "Advisory",
+      "marketplace": "Marketplace",
+      "equipment": "Equipment",
+      "diseaseScan": "Disease Scan",
+      "chatbot": "Chatbot"
+    },
+    "userMenu": {
+      "toggleNotifications": "Toggle notifications",
+      "notifications": "Notifications",
+      "toggleNav": "Toggle navigation menu",
+      "toggleUserMenu": "Toggle user menu",
+      "myAccount": "My Account",
+      "profile": "Profile",
+      "membership": "Membership",
+      "settings": "Settings",
+      "language": "Language",
+      "theme": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "support": "Support",
+      "logout": "Logout"
+    },
+    "notifications": {
+      "advisory": "New advisory for Wheat",
+      "time1": "5 minutes ago",
+      "stock": "Fertilizer is back in stock!",
+      "time2": "1 hour ago",
+      "seeAll": "See all notifications"
+    },
+    "carousel": {
+      "offer": {
+        "title": "Special Offer: 20% off Fertilizers!",
+        "description": "This week only, get a special discount on all organic fertilizers. Boost your yield!",
+        "badge": "Offer"
+      },
+      "news": {
+        "title": "New Govt. Subsidy Announced",
+        "description": "The government has announced a new subsidy for drip irrigation systems. Check your eligibility.",
+        "badge": "News"
+      },
+      "ad": {
+        "title": "Rent High-Tech Drones",
+        "description": "Our marketplace now features pesticide-spraying drones for daily rental. Cover more ground, faster.",
+        "badge": "Advertisement"
+      }
+    },
+    "glance": {
+      "title": "Your Farm At a Glance",
+      "weather": {
+        "title": "Weather Advisory",
+        "description": "7-day forecast & insights"
+      },
+      "soil": {
+        "title": "Soil Condition",
+        "description": "Moisture & nutrient levels"
+      },
+      "market": {
+        "title": "Market Prices",
+        "description": "Latest crop market trends"
+      },
+      "disease": {
+        "title": "Disease Risk",
+        "description": "Pest & disease alerts"
+      }
+    },
+    "interests": {
+      "title": "Interested in other fields?",
+      "learnMore": "Learn More",
+      "horticulture": {
+        "title": "Horticulture",
+        "description": "Cultivation of fruits, vegetables, flowers, and ornamental plants."
+      },
+      "agronomy": {
+        "title": "Agronomy",
+        "description": "Science of soil management and crop production."
+      },
+      "animalHusbandry": {
+        "title": "Animal Husbandry",
+        "description": "Care and breeding of domestic animals."
+      },
+      "organicFarming": {
+        "title": "Organic Farming",
+        "description": "Farming without synthetic chemicals."
+      },
+      "agriBusiness": {
+        "title": "Agri-Business",
+        "description": "Business of agricultural production."
+      },
+      "foodTechnology": {
+        "title": "Food Technology",
+        "description": "Study of food processing and preservation."
+      },
+      "aquaculture": {
+        "title": "Aquaculture",
+        "description": "Farming of aquatic organisms."
+      },
+      "biotechnology": {
+        "title": "Biotechnology",
+        "description": "Use of tech for crop improvement."
+      }
+    },
+    "advisory": {
+      "title": "Personalized Advisory",
+      "description": "AI-powered advice for your crops: {{crops}}",
+      "loading": "Generating your personalized advisory dashboard...",
+      "noCropsTitle": "No Crops Selected",
+      "noCropsDescription": "Please complete your profile by selecting your crops to receive personalized advice.",
+      "weather": {
+        "title": "Weather Advisory"
+      },
+      "soil": {
+        "title": "Soil Condition"
+      },
+      "market": {
+        "title": "Market Prices"
+      },
+      "disease": {
+        "title": "Disease & Pest Risk"
+      },
+      "error": {
+        "title": "Error",
+        "overloaded": "The AI model is currently overloaded. Please try again in a few moments.",
+        "failed": "Failed to fetch advisory data. Please check your API key configuration or try again later."
+      }
+    },
+    "chatbot": {
+      "title": "AI Chatbot",
+      "description": "Your AI-powered farming assistant. Ask me anything!",
+      "selectLanguageTitle": "Select a Language",
+      "selectLanguagePlaceholder": "Choose a language to begin...",
+      "startChat": "Start Chat",
+      "initialQuery": "Please greet me and introduce yourself as an AI farming assistant in one short sentence.",
+      "inputPlaceholder": "Ask about pest control, market trends, etc.",
+      "expertHelpNeeded": "This query may require expert assistance for a complete answer.",
+      "error": {
+        "connect": "Sorry, I'm having trouble connecting. This is likely because no API key is configured. Please check your setup or try again later.",
+        "overloaded": "The AI model is experiencing high demand. Please try again in a few moments."
+      }
+    },
+    "diseaseScan": {
+      "title": "Crop Disease Scanner",
+      "description": "Get an AI-powered diagnosis in your preferred language.",
+      "selectLanguageTitle": "Select a Language",
+      "selectLanguageDescription": "Choose the language for your diagnosis report.",
+      "selectLanguagePlaceholder": "Choose a language to begin...",
+      "scanAnother": "Scan Another",
+      "scanWithCamera": "Scan with Camera",
+      "uploadImage": "Upload Image",
+      "analyzingTitle": "Analyzing Image...",
+      "analyzingDescription": "Our AI is inspecting your plant.",
+      "getDiagnosisTitle": "Get an AI Diagnosis",
+      "getDiagnosisDescription": "Scan a plant or upload an image to see the analysis here.",
+      "result": {
+        "title": "Diagnosis Result",
+        "notAPlantTitle": "Not a Plant",
+        "notAPlantDescription": "Our AI could not identify a plant in the image. Please try again with a clearer picture of a plant leaf.",
+        "healthyTitle": "Plant is Healthy",
+        "healthyDescription": "No signs of disease were detected. Keep up the good work!",
+        "diseaseDetectedTitle": "Disease Detected",
+        "unknownIssue": "Unknown Issue",
+        "diseaseDetectedDescription": "Our AI has identified a potential health issue with your plant.",
+        "solutionTitle": "Recommended Solution",
+        "noSolution": "No specific solution available."
+      },
+      "error": {
+        "cameraNotSupportedTitle": "Camera Not Supported",
+        "cameraNotSupportedDescription": "Your browser does not support camera access. You can upload a file instead.",
+        "cameraAccessDeniedTitle": "Camera Access Denied",
+        "cameraAccessDeniedDescription": "To use the scanner, please allow camera access in your browser settings. You can also upload an image.",
+        "analysisFailedTitle": "Analysis Failed",
+        "analysisFailedDescription": "Could not analyze the image. The AI model may be unavailable or experienced an error.",
+        "overloaded": "The AI model is currently overloaded. Please try again in a few moments."
+      }
+    },
+    "equipment": {
+      "title": "Equipment & Tools",
+      "description": "Rent or buy the best equipment and tools for your farm.",
+      "searchPlaceholder": "Search equipment & tools...",
+      "rent": "Rent",
+      "buy": "Buy",
+      "categoryPlaceholder": "Select a category",
+      "categories": {
+        "all": "All",
+        "heavymachinery": "Heavy Machinery",
+        "implements": "Implements",
+        "drones": "Drones",
+        "pumps": "Pumps",
+        "tools": "Tools"
+      },
+      "available": "Available",
+      "unavailable": "Unavailable",
+      "bookNow": "Book Now",
+      "rentedOut": "Rented Out",
+      "buyNow": "Buy Now",
+      "noEquipment": "No equipment found matching your criteria."
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "description": "Find all your farming needs in one place.",
+      "searchPlaceholder": "Search products...",
+      "categoryPlaceholder": "Select a category",
+      "categories": {
+        "all": "All",
+        "chemicalfertilizers": "Chemical Fertilizers",
+        "organicfertilizers": "Organic Fertilizers",
+        "seeds": "Seeds",
+        "pesticides": "Pesticides",
+        "irrigation": "Irrigation"
+      },
+      "units": {
+        "45kgbag": "45kg bag",
+        "50kgbag": "50kg bag",
+        "1kgpack": "1kg pack",
+        "5kgbag": "5kg bag",
+        "10kgbag": "10kg bag",
+        "1Lbottle": "1L bottle",
+        "3kgpack": "3kg pack",
+        "40kgbag": "40kg bag",
+        "500gpack": "500g pack",
+        "250gpack": "250g pack",
+        "500mlbottle": "500ml bottle",
+        "20kgpack": "20kg pack",
+        "30kgpack": "30kg pack",
+        "450gpack": "450g pack",
+        "8kgpack": "8kg pack",
+        "10gpack": "10g pack",
+        "100gpack": "100g pack",
+        "1.5kgpack": "1.5kg pack",
+        "2kgpack": "2kg pack",
+        "50gpack": "50g pack",
+        "perkit": "per kit",
+        "perset": "per set",
+        "perroll": "per roll",
+        "packof50": "pack of 50",
+        "perpiece": "per piece",
+        "50mroll": "50m roll",
+        "setof10": "set of 10",
+        "packof20": "pack of 20",
+        "10mroll": "10m roll",
+        "perlength": "per length",
+        "400mroll": "400m roll",
+        "60mroll": "60m roll",
+        "packof5": "pack of 5",
+        "100mlbottle": "100ml bottle",
+        "250mlbottle": "250ml bottle",
+        "120gpack": "120g pack",
+        "160gpack": "160g pack",
+        "20gpack": "20g pack",
+        "setof5": "set of 5",
+        "setof2": "set of 2",
+        "perpair": "per pair"
+      },
+      "addToCart": "Add to Cart",
+      "noProducts": "No products found matching your criteria."
+    }
+  },
+  "profile": {
+    "personal": {
+        "title": "Personal Information",
+        "experience": "Years of Experience",
+        "experienceLabel": "Farming Experience (in years)",
+        "years": "years",
+        "aadhaar": "Aadhaar Number"
+    },
+    "location": {
+        "title": "Address Details",
+        "address": "Address"
+    },
+    "farming": {
+        "title": "Farming Profile",
+        "farmerType": "Farmer Type",
+        "farmerTypePlaceholder": "Select your farmer type",
+        "land": "Landholding",
+        "acres": "acres",
+        "landType": "Land Ownership",
+        "landArea": "Total Land Area",
+        "soilType": "Primary Soil Type",
+        "soilTypePlaceholder": "e.g., Loamy",
+        "irrigation": "Primary Irrigation",
+        "irrigationPlaceholder": "e.g., Borewell"
+    },
+    "crops": {
+        "title": "Crops & Livestock",
+        "primary": "Primary Crops",
+        "secondary": "Secondary/Rotational Crops",
+        "livestock": "Livestock"
+    },
+    "notifications": {
+        "title": "Notification Settings",
+        "frequency": "Update Frequency",
+        "channels": "Communication Channels",
+        "frequencies": {
+            "daily": "Daily",
+            "weekly": "Weekly",
+            "monthly": "Monthly",
+            "critical": "Critical Alerts Only"
+        },
+        "options": {
+            "app": "In-App Notifications",
+            "whatsapp": "WhatsApp Messages",
+            "sms": "SMS/Text Messages",
+            "email": "Email Updates"
+        }
+    },
+    "notSet": "Not Set"
+  },
+  "myActivity": {
+      "title": "My Activity",
+      "scannedCrop": "Scanned a crop for diseases.",
+      "viewedTrends": "Viewed market trends for {{crop}}.",
+      "askedChatbot": "Asked the chatbot about farming techniques."
+  }
+}
+

@@ -1,0 +1,45 @@
+{
+  "Agricure": "এগ্রিক্যুর",
+  "Your personal farming companion": "নহাক্কী মশাগী লৌমী মরূপ",
+  "continue": "মখা চথৌ",
+  "add": "হাপচিনবীয়ু",
+  "finishSetup": "সেটআপ লোইশিললু",
+  "auth": {
+    "phone": "ফোন",
+    "email": "ইমেল",
+    "phoneNumber": "ফোন নম্বর",
+    "sendOtp": "OTP থাগৎলু",
+    "verifyOtp": "OTP ভেরিফাই তৌ",
+    "enterOtp": "থাগৎলবা ৬-অঙ্ককী OTP অদু শিজিন্নৌ",
+    "resendOtpIn": "{{seconds}} সেকেন্ডদা OTP অমুক হন্না থাগৎলু",
+    "resendOtp": "OTP অমুক হন্না থাগৎলু",
+    "sendLoginLink": "লগইন লিঙ্ক থাগৎলু"
+  },
+  "onboarding": {
+    "step": "স্টেপ {{current}} গী {{total}}",
+    "language": {
+      "title": "লোলগী পছন্দ",
+      "description": "এপ অসিগীদমক নহাক্কী পছন্দগী লোল খল্লু।",
+      "placeholder": "লোল খল্লু"
+    },
+    "location": {
+      "title": "লৌফমগী মফম",
+      "description": "নহাক্কী মশাগী পাউতাক্কীদমক নহাক্কী লৌফমগী মফম হাপচিললু।",
+      "label": "মফম",
+      "placeholder": "খুদম, পঞ্জাব, ভারত",
+      "detectAriaLabel": "মফম পুথোকপা",
+      "toast": {
+        "title": "মফম পুথোকপা ঙমখ্রে",
+        "description": "মফম অসিদা সেট তৌখ্রে: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "নহাক্কী মহৈ-মরোং",
+      "description": "নহাক্না করি মরোল হুন্দুনা লৈবগে তাকপীয়ু।",
+      "placeholder": "খুদম, গেহু",
+      "suggestions": "পাউতাক",
+      "selectedCrops": "খল্লবা মহৈ-মরোং",
+      "noCrops": "হৌজিক ফাওবদা মহৈ-মরোং হাপচিনখিদ্রি।"
+    }
+  }
+}

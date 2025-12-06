@@ -1,0 +1,45 @@
+{
+  "Agricure": "एग्रीक्योर",
+  "Your personal farming companion": "भवतः व्यक्तिगतकृषिसहायकः",
+  "continue": "अनुवर्तयन्तु",
+  "add": "योजयन्तु",
+  "finishSetup": "सेटअप समापयन्तु",
+  "auth": {
+    "phone": "दूरवाणी",
+    "email": "ईमेल्",
+    "phoneNumber": "दूरवाणीसंख्या",
+    "sendOtp": "OTP प्रेषयन्तु",
+    "verifyOtp": "OTP सत्यापयन्तु",
+    "enterOtp": "प्रेषितं ६-अङ्कीयं OTP प्रविशन्तु",
+    "resendOtpIn": "{{seconds}} क्षणेषु OTP पुनः प्रेषयन्तु",
+    "resendOtp": "OTP पुनः प्रेषयन्तु",
+    "sendLoginLink": "लॉगिन् लिङ्क् प्रेषयन्तु"
+  },
+  "onboarding": {
+    "step": "सोपानम् {{current}} / {{total}}",
+    "language": {
+      "title": "भाषायाः प्राथमिकता",
+      "description": "अनुप्रयोगार्थं स्वस्य अभीष्टां भाषां चिनोतु।",
+      "placeholder": "एकां भाषां चिनोतु"
+    },
+    "location": {
+      "title": "कृषिक्षेत्रस्य स्थानम्",
+      "description": "व्यक्तिगतपरामर्शार्थं भवतः कृषिक्षेत्रस्य स्थानं प्रविशन्तु।",
+      "label": "स्थानम्",
+      "placeholder": "उदा., पञ्जाब, भारतम्",
+      "detectAriaLabel": "स्थानं अन्विष्यन्तु",
+      "toast": {
+        "title": "स्थानं प्राप्तम्",
+        "description": "स्थानं अत्र स्थापितम्: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "भवतः सस्यानि",
+      "description": "भवान् किं वर्धयति इति अस्मान् वदतु।",
+      "placeholder": "उदा., गोधूमः",
+      "suggestions": "सूचनम्",
+      "selectedCrops": "चितानि सस्यानि",
+      "noCrops": "अद्यापि किमपि सस्यं न योजितम्।"
+    }
+  }
+}

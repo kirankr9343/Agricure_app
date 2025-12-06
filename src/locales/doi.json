@@ -1,0 +1,45 @@
+{
+  "Agricure": "एग्रीक्योर",
+  "Your personal farming companion": "तुंदा निजी खेती दा साथी",
+  "continue": "जारी रक्खो",
+  "add": "जोड़ो",
+  "finishSetup": "सेटअप पूरा करो",
+  "auth": {
+    "phone": "फोन",
+    "email": "ईमेल",
+    "phoneNumber": "फोन नंबर",
+    "sendOtp": "ओटीपी भेजियो",
+    "verifyOtp": "ओटीपी सत्यापित करो",
+    "enterOtp": "भेजे दे 6-अंकें दा ओटीपी पाओ",
+    "resendOtpIn": "{{seconds}} सेकंड च ओटीपी दुबारा भेजियो",
+    "resendOtp": "ओटीपी दुबारा भेजियो",
+    "sendLoginLink": "लॉगिन लिंक भेजियो"
+  },
+  "onboarding": {
+    "step": "चरण {{current}} / {{total}}",
+    "language": {
+      "title": "भाषा दी पसंद",
+      "description": "ऐप वास्ते अपनी पसंदीदा भाषा चुनो।",
+      "placeholder": "भाषा चुनो"
+    },
+    "location": {
+      "title": "खेत दा पता",
+      "description": "निजी सलाह वास्ते अपने खेत दा पता दर्ज करो।",
+      "label": "पता",
+      "placeholder": "जि’यां, पंजाब, भारत",
+      "detectAriaLabel": "पता पता करो",
+      "toast": {
+        "title": "पता पता लग्गी गेआ",
+        "description": "पता इस पर सेट कीता गेआ ऐ: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "तुंदी फसलें",
+      "description": "दस्सो तुस केह् उगाई रे’दे ओ।",
+      "placeholder": "जि’यां, कनक",
+      "suggestions": "सुझाऽ",
+      "selectedCrops": "चुनी दी फसलें",
+      "noCrops": "अज्जै कोई फसल जोड़ी नेईं गेई ऐ।"
+    }
+  }
+}

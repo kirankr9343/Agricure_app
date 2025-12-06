@@ -1,0 +1,45 @@
+{
+  "Agricure": "एग्रीक्योर",
+  "Your personal farming companion": "توهان جو ذاتي پوکيءَ جو ساٿي",
+  "continue": "جاري رکو",
+  "add": "شامل ڪريو",
+  "finishSetup": "سيٽ اپ مڪمل ڪريو",
+  "auth": {
+    "phone": "فون",
+    "email": "ايميل",
+    "phoneNumber": "فون نمبر",
+    "sendOtp": "OTP موڪليو",
+    "verifyOtp": "OTP جي تصديق ڪريو",
+    "enterOtp": "موڪليل 6-अंक وارو OTP داخل ڪريو",
+    "resendOtpIn": "{{seconds}} سيڪنڊن ۾ OTP ٻيهر موڪليو",
+    "resendOtp": "OTP ٻيهر موڪليو",
+    "sendLoginLink": "لاگ ان لنڪ موڪليو"
+  },
+  "onboarding": {
+    "step": "قدم {{current}} جو {{total}}",
+    "language": {
+      "title": "ٻولي جي ترجيح",
+      "description": "ايپ لاءِ پنهنجي پسند جي ٻولي چونڊيو.",
+      "placeholder": "هڪ ٻولي چونڊيو"
+    },
+    "location": {
+      "title": "فارم جو هنڌ",
+      "description": "ذاتي صلاح لاءِ پنهنجي فارم جو هنڌ داخل ڪريو.",
+      "label": "هنڌ",
+      "placeholder": "مثال طور، پنجاب، انڊيا",
+      "detectAriaLabel": "هنڌ معلوم ڪريو",
+      "toast": {
+        "title": "هنڌ معلوم ٿي ويو",
+        "description": "هنڌ هن تي سيٽ ڪيو ويو: {{location}}"
+      }
+    },
+    "crops": {
+      "title": "توهان جا فصل",
+      "description": "اسان کي ٻڌايو ته توهان ڇا پوکي رهيا آهيو.",
+      "placeholder": "مثال طور، ڪڻڪ",
+      "suggestions": "صلاحون",
+      "selectedCrops": "چونڊيل فصل",
+      "noCrops": "اڃا تائين ڪو به فصل شامل نه ڪيو ويو آهي."
+    }
+  }
+}
